@@ -1007,7 +1007,7 @@ SigNode *GetSigByGidSid(u_int32_t gid, u_int32_t sid,u_int32_t revision)
     sn->id = sid;
     sn->rev = revision;
     sn->msg = (char *)SnortAlloc(42);
-    snprintf(sn->msg, 42, "Snort Alert [%u:%u:%u]", gid, sid, revision);
+    snprintf(sn->msg, 42, "Gushenxing [%u:%u:%u]", gid, sid, revision);
  
     return sn;
 }

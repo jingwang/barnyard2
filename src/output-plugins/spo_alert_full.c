@@ -180,7 +180,7 @@ static void AlertFull(Packet *p, void *event, uint32_t event_type, void *arg)
     }
     else
     {
-        TextLog_Puts(data->log, "[**] Snort Alert! [**]\n");
+        TextLog_Puts(data->log, "[**] Gushenxing [**]\n");
     }
 
     if(p && IPH_IS_VALID(p))

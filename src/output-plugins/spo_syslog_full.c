@@ -419,7 +419,7 @@ static int Syslog_FormatTrigger(OpSyslog_Data *syslogData, Unified2EventCommon *
     }
     
     
-    snprintf(tSigBuf,256,"Snort Alert [%u:%u:%u]",
+    snprintf(tSigBuf,256,"Gushenxing [%u:%u:%u]",
 	     ntohl(pEvent->generator_id),
 	     ntohl(pEvent->signature_id),
 	     ntohl(pEvent->signature_revision));

@@ -1030,7 +1030,7 @@ u_int32_t ConvertSignatureCache(SigNode **iHead,MasterCache *iMasterCache,Databa
 	else
 	{
 	    snprintf(lookupNode.message, SIG_MSG_LEN,
-		     "Snort Alert [%u:%u:%u]",
+		     "Gushenxing [%u:%u:%u]",
 		     lookupNode.gid,
 		     lookupNode.sid,
 		     lookupNode.rev);
